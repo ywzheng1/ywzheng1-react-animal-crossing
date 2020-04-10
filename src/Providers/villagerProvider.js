@@ -2,31 +2,39 @@ import React, { createContext, useState, useEffect } from 'react';
 import { villagers } from './villagers.data'
 
 export const VillagerContext = createContext({
-    villagers: [],
+    filterVillagers: [],
+    searchTerm: "",
     isProfileOpen: false,
     viewVillager: null,
-    toggleModal: () => {}
+    toggleModal: () => {},
+    searchVillager: () => {}
 });
 
 
 const VillagerProvider = ({ children }) => {
-    const [sortVillagers, setVillagers] = useState(villagers);
+    const [filterVillagers, setVillagers] = useState([]);
+    const [searchTerm, setSearchTerm] = useState("");
     const [isProfileOpen, setProfileOpen] = useState(false);
     const [viewVillager, setViewVillager] = useState(null);
 
     const toggleModal = (id) => {setProfileOpen(!isProfileOpen); setViewVillager(id)};
+    const searchVillager = (event) => {setSearchTerm(event.target.value);}
 
+
+    // ComponentDidMount 
     useEffect(() => {
-        console.log(villagers)
-    }, [])
+        setVillagers(villagers);
+    }, [filterVillagers])
     
     return(
         <VillagerContext.Provider
             value={{
-                villagers,
+                filterVillagers,
                 isProfileOpen,
                 viewVillager,
-                toggleModal
+                toggleModal,
+                searchTerm,
+                searchVillager
             }}
         >
             {children}

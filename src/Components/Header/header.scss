@@ -1,5 +1,14 @@
 .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     h1 {
         color: #B27039;
+    }
+
+    .searchbar {
+        margin-right: 4rem;
+        margin-top: 1rem;
     }
 }

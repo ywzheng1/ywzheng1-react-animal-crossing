@@ -5,7 +5,11 @@ import VillagerCard from '../VillagerCard/villagerCard';
 import './content.scss';
 
 function Content() {
-    const {villagers} = useContext(VillagerContext);
+    const {filterVillagers, searchTerm} = useContext(VillagerContext);
+
+    const villagers = filterVillagers.filter( villager => {
+        return villager.name.toLowerCase().includes(searchTerm)
+    })
 
     return(
         <div className='content-wrapper'>

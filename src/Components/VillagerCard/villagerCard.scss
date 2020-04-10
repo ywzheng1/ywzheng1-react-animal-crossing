@@ -7,6 +7,14 @@
     position: relative;
     cursor: pointer;
 
+    @media screen and (min-width: 1200px) {
+        height: 18rem;
+    }
+
+    @media screen and (min-width: 1600px) {
+        height: 22rem;
+    }
+
     &:hover {
         transform: scale(1.1);
         transition: all ease-in-out 0.2s;
@@ -22,15 +30,36 @@
             margin: 0 auto;
             display: block;
             z-index: 999;
+
+            @media screen and (min-width: 1200px) {
+                height: 10rem;
+            }
+
+            @media screen and (min-width: 1600px) {
+                height: 14rem;
+            }
         }
     }
 
 
     .villager-name-container {
         text-align: center;
-        
         height: 7.5rem;
         border-radius: 10px;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        z-index: -999;
+
+        @media screen and (min-width: 1200px) {
+            height: 9rem;
+            top: 90px;
+        }
+
+        @media screen and (min-width: 1600px) {
+            height: 12rem;
+            top: 120px;
+        }
 
         &.girl {
             background-color: #F9D583;
@@ -40,11 +69,6 @@
             background-color: #82D6CB;
         }
 
-        position: absolute;
-        top: 70px;
-        width: 100%;
-        z-index: -999;
-
         .villager-name {
             position: absolute;
             display: block;
@@ -52,6 +76,15 @@
             width: 100%;
             text-align: center;
             color: #484848;
+
+            @media screen and (min-width: 1200px) {
+                font-size: 1.2rem;
+            }
+
+            @media screen and (min-width: 1600px) {
+                font-size: 1.5rem;
+            }
+
         }
     }
 }

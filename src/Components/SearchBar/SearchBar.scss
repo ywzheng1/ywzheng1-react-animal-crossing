@@ -1,0 +1,32 @@
+.search-wrapper {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    position: relative;
+
+    .icon {
+        position: absolute;
+        width: 100%;
+        width: 20px;
+        height: 20px;
+        padding: 0.5rem 0.5rem 0.5rem 1rem;
+
+        .cls-2 {
+            fill: #D3A680;
+        }
+    }
+
+    .searchinput{
+        width: 100%;
+        background-color: transparent;
+        border-color: #D3A680;
+        border-radius: 20px;
+        border-style: solid;
+        padding: 1rem 2rem 1rem 2.7rem;
+        height: 2.5rem;
+
+        &::placeholder {
+            color: #D3A680;
+        }
+    }
+}
