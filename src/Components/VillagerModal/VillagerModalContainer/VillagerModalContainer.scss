@@ -1,0 +1,9 @@
+.villager-modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba($color: #F5F2EA, $alpha: 0.7);
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,57 @@
+.villager-card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 15rem;
+    margin: 1rem 0.5rem;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all ease-in-out 0.2s;
+    }
+
+    .villager-image-container {
+        position: absolute;
+        width: 100%;
+
+        .villager-image {
+            width: auto;
+            height: 8rem;
+            margin: 0 auto;
+            display: block;
+            z-index: 999;
+        }
+    }
+
+
+    .villager-name-container {
+        text-align: center;
+        
+        height: 7.5rem;
+        border-radius: 10px;
+
+        &.girl {
+            background-color: #F9D583;
+        }
+
+        &.boy {
+            background-color: #82D6CB;
+        }
+
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        z-index: -999;
+
+        .villager-name {
+            position: absolute;
+            display: block;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            color: #484848;
+        }
+    }
+}

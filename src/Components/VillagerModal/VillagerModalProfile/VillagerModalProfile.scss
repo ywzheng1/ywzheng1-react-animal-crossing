@@ -1,0 +1,159 @@
+.passport-wrapper{
+    display: block;
+    width: 30rem;
+    margin: 6rem auto;
+
+    .png-image {
+        position: absolute;
+        z-index: 999;
+        top: 2rem;
+        display: block;
+        transform: translateX(-2rem);
+
+        .villager-image {
+            height: 15rem;
+        }
+    }
+
+    .passport-top {
+        background-color: #ECCEC1;
+        height: 17rem;
+        width: 100%;
+        border-radius: 40px 40px 10px 10px;
+        position: relative;
+
+        .inner{
+            position: absolute;
+            background-color: #F5F2EA;
+            bottom: 0.5rem;
+            width: 90%;
+            height: 91%;
+            margin: 0 auto;
+            display: flex;
+            left: 5%;
+            align-items: center;
+            border-radius: 40px 40px 0px 0px;
+            background-image: url('../../../Assets/passport-background.png');
+        }
+    }
+
+    hr {
+        margin: 0 1.2rem;
+        border-top: transparent;
+        border-bottom: 3px dashed gray;
+        background-color: #ECCEC1;
+        position: absolute;
+        z-index: 999;
+        display: block;
+        width: 27rem;
+    }
+
+    .passport-bottom{
+        background-color: #ECCEC1;
+        height: 18rem;
+        width: 100%;
+        border-radius: 10px 10px 40px 40px;
+        position: relative;
+
+        .inner{
+            position: absolute;
+            background-color: #F5F2EA;
+            top: 0.5rem;
+            width: 90%;
+            height: 91%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            left: 5%;
+            align-items: center;
+            border-radius: 0px 0px 40px 40px;
+            background-image: url('../../../Assets/passport-background.png');
+
+            .header {
+                height: 1rem;
+                width: 80%;
+                text-align: center;
+                color: #575757;
+                letter-spacing: 0.2rem;
+                font-weight: 300;
+
+                &::before {
+                    content: '---  ';
+                }
+
+                &::after {
+                    content: '  ---';
+                }
+            }
+
+            .passport-content {
+                // background-color: green;
+                height: 11rem;
+                width: 85%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .passport-image{
+                    width: 40%;
+                    height: 100%;
+                    // background-color: white;
+
+                    .image-container {
+                        background-color: #ECCEC1;
+                        border-radius: 20px;
+                        margin: 0 10px;
+
+                        img {
+                            display: block;
+                            width: 95%;
+                            height: 7rem;
+                            margin: 0 auto;
+                            padding: 0.5rem 0;
+                        }
+                    }
+                }
+
+                .passport-detail{
+                    height: 100%;
+                    width: 55%;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+
+                    div {
+                        width: 45%;
+                        margin-top: 0.4rem;
+                        color: #6E6E6E;
+                        &:last-child {
+                            width: 100%;
+                        }
+
+                        label {
+                            background-color: #EAE8E1;
+                            border-radius: 15px;
+                            padding: 0.4rem 1.2rem;
+                            color: #8D8C89;
+                            font-size: 14px;
+                            font-weight: lighter;
+                        }
+
+                        p {
+                            line-height: 1rem;
+                            width: 120%;
+                            color: #6E6E6E;
+                            margin: 0.6rem auto;
+
+                            &::before {
+                                content: '';
+                                margin-left: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
