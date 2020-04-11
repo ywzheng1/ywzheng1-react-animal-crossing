@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6213db6.chunk.css",
-    "main.js": "/static/js/main.30b0570a.chunk.js",
-    "main.js.map": "/static/js/main.30b0570a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b71bb34b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b71bb34b.js.map",
-    "static/js/2.bb666597.chunk.js": "/static/js/2.bb666597.chunk.js",
-    "static/js/2.bb666597.chunk.js.map": "/static/js/2.bb666597.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.374225b513e07ba7e91dcc949385758f.js": "/precache-manifest.374225b513e07ba7e91dcc949385758f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d6213db6.chunk.css.map": "/static/css/main.d6213db6.chunk.css.map",
-    "static/js/2.bb666597.chunk.js.LICENSE.txt": "/static/js/2.bb666597.chunk.js.LICENSE.txt",
-    "static/media/ac_logo.png": "/static/media/ac_logo.47be2894.png",
-    "static/media/index.css": "/static/media/background.0ef25a97.png",
-    "static/media/leaf.ce5a31af.svg": "/static/media/leaf.ce5a31af.svg",
-    "static/media/VillagerModalProfile.scss": "/static/media/passport-background.9b995b32.png"
+    "main.css": "/react-animal-crossing/static/css/main.7ea50ef3.chunk.css",
+    "main.js": "/react-animal-crossing/static/js/main.416ebae9.chunk.js",
+    "main.js.map": "/react-animal-crossing/static/js/main.416ebae9.chunk.js.map",
+    "runtime-main.js": "/react-animal-crossing/static/js/runtime-main.c8dd2b61.js",
+    "runtime-main.js.map": "/react-animal-crossing/static/js/runtime-main.c8dd2b61.js.map",
+    "static/js/2.bb666597.chunk.js": "/react-animal-crossing/static/js/2.bb666597.chunk.js",
+    "static/js/2.bb666597.chunk.js.map": "/react-animal-crossing/static/js/2.bb666597.chunk.js.map",
+    "index.html": "/react-animal-crossing/index.html",
+    "precache-manifest.c1bf033fcaf87d0320a559e9dc008368.js": "/react-animal-crossing/precache-manifest.c1bf033fcaf87d0320a559e9dc008368.js",
+    "service-worker.js": "/react-animal-crossing/service-worker.js",
+    "static/css/main.7ea50ef3.chunk.css.map": "/react-animal-crossing/static/css/main.7ea50ef3.chunk.css.map",
+    "static/js/2.bb666597.chunk.js.LICENSE.txt": "/react-animal-crossing/static/js/2.bb666597.chunk.js.LICENSE.txt",
+    "static/media/ac_logo.png": "/react-animal-crossing/static/media/ac_logo.47be2894.png",
+    "static/media/index.css": "/react-animal-crossing/static/media/background.0ef25a97.png",
+    "static/media/leaf.ce5a31af.svg": "/react-animal-crossing/static/media/leaf.ce5a31af.svg",
+    "static/media/VillagerModalProfile.scss": "/react-animal-crossing/static/media/passport-background.9b995b32.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b71bb34b.js",
+    "static/js/runtime-main.c8dd2b61.js",
     "static/js/2.bb666597.chunk.js",
-    "static/css/main.d6213db6.chunk.css",
-    "static/js/main.30b0570a.chunk.js"
+    "static/css/main.7ea50ef3.chunk.css",
+    "static/js/main.416ebae9.chunk.js"
   ]
 }
