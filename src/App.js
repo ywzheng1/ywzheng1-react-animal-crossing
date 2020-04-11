@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Sidebar from './Components/Sidebar/sidebar';
 import MainContent from './Components/MainContent/mainContent';
 import Modal from './Components/Modal/modal';
@@ -13,20 +13,20 @@ function App() {
   const { isProfileOpen, viewVillager } = useContext(VillagerContext);
 
   return (
-
+    <Router>
       <div className='app'>
         <Sidebar />
         <Route exact path='/'>
-        <MainContent />
-        {
-          isProfileOpen &&
-            <Modal >
-              <VillagerModalContainer villagerId={viewVillager}/>
-            </Modal>
-        }
+          <MainContent />
+          {
+            isProfileOpen &&
+              <Modal >
+                <VillagerModalContainer villagerId={viewVillager}/>
+              </Modal>
+          }
         </Route>
       </div>
-
+    </Router>
   );
 }
 
