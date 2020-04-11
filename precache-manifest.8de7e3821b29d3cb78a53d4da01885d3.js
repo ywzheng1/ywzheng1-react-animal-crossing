@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9857b2dcdca80f05ae66846798061433",
+    "revision": "cd7f012dd9997127ddd7cfd2eb3748c8",
     "url": "/react-animal-crossing/index.html"
   },
   {
-    "revision": "203e1788d989ed88c258",
+    "revision": "1bbe25d6e8de377394bc",
     "url": "/react-animal-crossing/static/css/main.7ea50ef3.chunk.css"
   },
   {
-    "revision": "b52642db158c3b93fc1d",
-    "url": "/react-animal-crossing/static/js/2.bb666597.chunk.js"
+    "revision": "6325fa65e97389b821e2",
+    "url": "/react-animal-crossing/static/js/2.b1d06dbb.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/react-animal-crossing/static/js/2.bb666597.chunk.js.LICENSE.txt"
+    "url": "/react-animal-crossing/static/js/2.b1d06dbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "203e1788d989ed88c258",
-    "url": "/react-animal-crossing/static/js/main.416ebae9.chunk.js"
+    "revision": "1bbe25d6e8de377394bc",
+    "url": "/react-animal-crossing/static/js/main.edde4080.chunk.js"
   },
   {
     "revision": "f55b5d226e8f4c2387a7",

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-animal-crossing/static/css/main.7ea50ef3.chunk.css",
-    "main.js": "/react-animal-crossing/static/js/main.416ebae9.chunk.js",
-    "main.js.map": "/react-animal-crossing/static/js/main.416ebae9.chunk.js.map",
+    "main.js": "/react-animal-crossing/static/js/main.edde4080.chunk.js",
+    "main.js.map": "/react-animal-crossing/static/js/main.edde4080.chunk.js.map",
     "runtime-main.js": "/react-animal-crossing/static/js/runtime-main.c8dd2b61.js",
     "runtime-main.js.map": "/react-animal-crossing/static/js/runtime-main.c8dd2b61.js.map",
-    "static/js/2.bb666597.chunk.js": "/react-animal-crossing/static/js/2.bb666597.chunk.js",
-    "static/js/2.bb666597.chunk.js.map": "/react-animal-crossing/static/js/2.bb666597.chunk.js.map",
+    "static/js/2.b1d06dbb.chunk.js": "/react-animal-crossing/static/js/2.b1d06dbb.chunk.js",
+    "static/js/2.b1d06dbb.chunk.js.map": "/react-animal-crossing/static/js/2.b1d06dbb.chunk.js.map",
     "index.html": "/react-animal-crossing/index.html",
-    "precache-manifest.c1bf033fcaf87d0320a559e9dc008368.js": "/react-animal-crossing/precache-manifest.c1bf033fcaf87d0320a559e9dc008368.js",
+    "precache-manifest.8de7e3821b29d3cb78a53d4da01885d3.js": "/react-animal-crossing/precache-manifest.8de7e3821b29d3cb78a53d4da01885d3.js",
     "service-worker.js": "/react-animal-crossing/service-worker.js",
     "static/css/main.7ea50ef3.chunk.css.map": "/react-animal-crossing/static/css/main.7ea50ef3.chunk.css.map",
-    "static/js/2.bb666597.chunk.js.LICENSE.txt": "/react-animal-crossing/static/js/2.bb666597.chunk.js.LICENSE.txt",
+    "static/js/2.b1d06dbb.chunk.js.LICENSE.txt": "/react-animal-crossing/static/js/2.b1d06dbb.chunk.js.LICENSE.txt",
     "static/media/ac_logo.png": "/react-animal-crossing/static/media/ac_logo.47be2894.png",
     "static/media/index.css": "/react-animal-crossing/static/media/background.0ef25a97.png",
     "static/media/leaf.ce5a31af.svg": "/react-animal-crossing/static/media/leaf.ce5a31af.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c8dd2b61.js",
-    "static/js/2.bb666597.chunk.js",
+    "static/js/2.b1d06dbb.chunk.js",
     "static/css/main.7ea50ef3.chunk.css",
-    "static/js/main.416ebae9.chunk.js"
+    "static/js/main.edde4080.chunk.js"
   ]
 }
