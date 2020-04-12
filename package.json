@@ -1,5 +1,6 @@
 {
   "name": "react-animal-crossing",
+  "homepage": "https://ywzheng1.github.io/react-animal-crossing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

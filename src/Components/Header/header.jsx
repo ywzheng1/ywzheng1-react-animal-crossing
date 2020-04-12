@@ -3,10 +3,10 @@ import SearchBar from '../SearchBar/SearchBar';
 
 import './header.scss';
 
-function Header() {
+function Header({heading}) {
     return(
         <header className='header'>
-            <h1>Animal Crossing Villagers</h1>
+            <h1>{heading}</h1>
             <SearchBar className = 'searchbar'/>
         </header>
     )

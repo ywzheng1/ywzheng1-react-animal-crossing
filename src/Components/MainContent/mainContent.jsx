@@ -7,7 +7,7 @@ import Content from '../Content/content';
 function MainContent() {
     return(
         <div className='main-content'>
-            <Header/>
+            <Header heading='Animal Crossing Villagers'/>
             <Content />
         </div>
     )
