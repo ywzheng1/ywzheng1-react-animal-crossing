@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-animal-crossing/static/css/main.7ea50ef3.chunk.css",
-    "main.js": "/react-animal-crossing/static/js/main.edde4080.chunk.js",
-    "main.js.map": "/react-animal-crossing/static/js/main.edde4080.chunk.js.map",
+    "main.css": "/react-animal-crossing/static/css/main.764808eb.chunk.css",
+    "main.js": "/react-animal-crossing/static/js/main.0641a833.chunk.js",
+    "main.js.map": "/react-animal-crossing/static/js/main.0641a833.chunk.js.map",
     "runtime-main.js": "/react-animal-crossing/static/js/runtime-main.c8dd2b61.js",
     "runtime-main.js.map": "/react-animal-crossing/static/js/runtime-main.c8dd2b61.js.map",
-    "static/js/2.b1d06dbb.chunk.js": "/react-animal-crossing/static/js/2.b1d06dbb.chunk.js",
-    "static/js/2.b1d06dbb.chunk.js.map": "/react-animal-crossing/static/js/2.b1d06dbb.chunk.js.map",
+    "static/js/2.7f3d2dbc.chunk.js": "/react-animal-crossing/static/js/2.7f3d2dbc.chunk.js",
+    "static/js/2.7f3d2dbc.chunk.js.map": "/react-animal-crossing/static/js/2.7f3d2dbc.chunk.js.map",
     "index.html": "/react-animal-crossing/index.html",
-    "precache-manifest.8de7e3821b29d3cb78a53d4da01885d3.js": "/react-animal-crossing/precache-manifest.8de7e3821b29d3cb78a53d4da01885d3.js",
+    "precache-manifest.b6748c436a53d406cd1d1665f062b9eb.js": "/react-animal-crossing/precache-manifest.b6748c436a53d406cd1d1665f062b9eb.js",
     "service-worker.js": "/react-animal-crossing/service-worker.js",
-    "static/css/main.7ea50ef3.chunk.css.map": "/react-animal-crossing/static/css/main.7ea50ef3.chunk.css.map",
-    "static/js/2.b1d06dbb.chunk.js.LICENSE.txt": "/react-animal-crossing/static/js/2.b1d06dbb.chunk.js.LICENSE.txt",
+    "static/css/main.764808eb.chunk.css.map": "/react-animal-crossing/static/css/main.764808eb.chunk.css.map",
+    "static/js/2.7f3d2dbc.chunk.js.LICENSE.txt": "/react-animal-crossing/static/js/2.7f3d2dbc.chunk.js.LICENSE.txt",
     "static/media/ac_logo.png": "/react-animal-crossing/static/media/ac_logo.47be2894.png",
     "static/media/index.css": "/react-animal-crossing/static/media/background.0ef25a97.png",
     "static/media/leaf.ce5a31af.svg": "/react-animal-crossing/static/media/leaf.ce5a31af.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c8dd2b61.js",
-    "static/js/2.b1d06dbb.chunk.js",
-    "static/css/main.7ea50ef3.chunk.css",
-    "static/js/main.edde4080.chunk.js"
+    "static/js/2.7f3d2dbc.chunk.js",
+    "static/css/main.764808eb.chunk.css",
+    "static/js/main.0641a833.chunk.js"
   ]
 }

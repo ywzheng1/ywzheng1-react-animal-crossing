@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd7f012dd9997127ddd7cfd2eb3748c8",
+    "revision": "57ab77b050cae56beda63db177ab8fcb",
     "url": "/react-animal-crossing/index.html"
   },
   {
-    "revision": "1bbe25d6e8de377394bc",
-    "url": "/react-animal-crossing/static/css/main.7ea50ef3.chunk.css"
+    "revision": "5097ed085cf1af38ca9a",
+    "url": "/react-animal-crossing/static/css/main.764808eb.chunk.css"
   },
   {
-    "revision": "6325fa65e97389b821e2",
-    "url": "/react-animal-crossing/static/js/2.b1d06dbb.chunk.js"
+    "revision": "9f50c5296979babf4c60",
+    "url": "/react-animal-crossing/static/js/2.7f3d2dbc.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/react-animal-crossing/static/js/2.b1d06dbb.chunk.js.LICENSE.txt"
+    "url": "/react-animal-crossing/static/js/2.7f3d2dbc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1bbe25d6e8de377394bc",
-    "url": "/react-animal-crossing/static/js/main.edde4080.chunk.js"
+    "revision": "5097ed085cf1af38ca9a",
+    "url": "/react-animal-crossing/static/js/main.0641a833.chunk.js"
   },
   {
     "revision": "f55b5d226e8f4c2387a7",
